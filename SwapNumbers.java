@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class SwapNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println("After swapping:");
+        System.out.println("First number = " + a);
+        System.out.println("Second number = " + b);
+    }
+}
+OUTPUT:
+Enter first number: 10
+Enter second number: 20
+After swapping:
+First number = 20
+Second number = 10
+
